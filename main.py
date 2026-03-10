@@ -146,7 +146,7 @@ def guardar_o_modificar(categoria, jugador, puntos, tachar, dados,tiradas):
        
         if anotado==False:                
             print('Esta categoria ya fue utilizada. Elija otra.')
-            puntos,categoria,tachar=nueva_categoria(dados,tiradas)
+            puntos,categoria,tachar,fin=nueva_categoria(dados,tiradas)
     total=0   
     for pos in range(1,len(planilla)-1):
         if jugador==1 and planilla[pos][1]!='':
