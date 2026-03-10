@@ -194,7 +194,7 @@ def main():
         turnos+=1
         if fin==True:
             print(f'Fin del juego. Gano el jugador {jugador}.')
-        if turnos==20:
+        elif turnos==20:
             fin=True
             print(f'Fin del juego. Gano el jugador {ganador}.')
           
